@@ -18,7 +18,10 @@ h1 {
 
 .container {
   width: 300px;
-  margin: 3em auto;
+  margin: 4em auto;
+  background: rgb(240, 240, 240);
+  padding: 3em;
+  border-radius: 7px;
 }
 
 .form-element {
@@ -29,7 +32,7 @@ input {
   width: 300px;
   outline: none;
   border: 1px solid rgb(158, 157, 157);
-  border-radius: 3px;
+  border-radius: 4px;
   padding: 10px 7px;
   display: inline-block;
   background-color: none;
