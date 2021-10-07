@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>User Form</h1>
+      <form class="form">
+        <!-- Name -->
+        <div class="form-element">
+          <input type="text" class="input-name is-invalid" placeholder="Please Insert Your Name" autocomplete="off" />
+          <p class="valid-name">It is Ok!</p>
+          <p class="invalid-name">Name must be between 2 and 10 characters</p>
+        </div>
+        <!-- Zip-Code -->
+        <div class="form-element">
+          <input type="text" class="input-zipcode is-invalid" placeholder="Please Insert Your Zip Code" autocomplete="off" />
+          <p class="valid-zipcode">It is Ok!</p>
+          <p class="invalid-zipcode">ZipCode must be like 55555-55555 or 5555555555</p>
+        </div>
+        <!-- Email -->
+        <div class="form-element">
+          <input type="text" class="input-email is-invalid" placeholder="Please Insert Your Email" autocomplete="off" />
+          <p class="valid-email">It is Ok!</p>
+          <p class="invalid-email">Email must be like example@example.com</p>
+        </div>
+        <!-- Phone -->
+        <div class="form-element">
+          <input type="text" class="input-phone is-invalid" placeholder="Please Insert Your Phone" autocomplete="off" />
+          <p class="valid-phone">It is Ok!</p>
+          <p class="invalid-phone">Phone number must be like +98 9101112222</p>
+        </div>
+        <!-- Submit -->
+          <button type="submit" class="btn-submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
